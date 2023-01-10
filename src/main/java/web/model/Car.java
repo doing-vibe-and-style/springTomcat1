@@ -1,10 +1,12 @@
 package web.model;
 
+import org.springframework.stereotype.Component;
 
+@Component
 public class Car {
-    String model;
-    int series;
-    String number;
+    private String model;
+    private int series;
+    private String number;
 
     public String getModel() {
         return model;
